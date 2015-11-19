@@ -21,7 +21,7 @@ $guestAccess = $view->fieldset()->setAttribute('template', $T('SmbGuestAccess_la
 ;
 
 $browseableState = $view->fieldsetswitch('SmbShareBrowseable', 'enabled', $view::FIELDSETSWITCH_EXPANDABLE | $view::FIELDSETSWITCH_CHECKBOX)
-    ->setAttribute('uncheckedValue', 'enabled')
+    ->setAttribute('uncheckedValue', 'disabled')
 ;
 
 echo $view->fieldsetSwitch('SmbStatus', 'enabled', $view::FIELDSETSWITCH_CHECKBOX)
